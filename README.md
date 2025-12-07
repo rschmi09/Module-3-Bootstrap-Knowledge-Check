@@ -1,16 +1,28 @@
-# React + Vite
+Module 3: React
+Assignment: Knowledge Check - Bootstrap Basics, Utilities, Forms, and Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Requirements:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Form Creation and Layout:
+    - Use Bootstrap’s form components to create a registration form with fields for First Name, Last Name, Email, Password, and a checkbox for agreeing        to terms.
+    - Apply Bootstrap grid layout to position the First Name and Last Name fields side-by-side.
+    - Use validation classes to ensure the Email and Password fields are required.
+    - Add a submit button styled with btn-success.
+2. Table for Displaying Data:
+    - Create a Bootstrap table to display user data.
+    - Hard-code sample data into the table to simulate user submissions.
+    - Apply striped and hoverable rows to enhance readability.
+    - Make the table responsive by wrapping it in a table-responsive div.
+3. Image and Button Utilities:
+    - Add a responsive image using the img-fluid class and place it inside a fluid container to stretch across the page.
+    - Below the main image, add a circular image (rounded-circle).
+    - Create two buttons:
+      -- One button should be visible on all screen sizes.
+      -- The second button should be hidden on small screens using responsive utilities (d-none and d-md-block).
+4. Responsive Navigation Bar:
+    - Build a navbar with links to Home, About, and Contact sections.
+    - Ensure the navbar collapses into a hamburger menu on smaller screens.
+    - Use Bootstrap utilities and components to style the navbar.
+5. Responsiveness and Layout:
+    - Use Bootstrap containers (container or container-fluid) to structure the layout.
+    - Ensure that all components are responsive across different screen sizes using media queries and Bootstrap utilities.
